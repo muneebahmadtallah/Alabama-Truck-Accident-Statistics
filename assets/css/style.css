@@ -1,0 +1,467 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+
+.header-area{
+    background-color: rgb(255, 255, 255);
+}
+.header-area img{
+    padding-bottom: 10px;
+}
+.header-area h1{
+    color: 003333;
+    color: rgb(8, 49, 76);
+    font-weight: 510;
+}
+
+.header-content{
+    border: 4px solid;
+    border-color: rgb(213, 213, 213);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.header-content h3{
+    color:rgb(75, 75, 75);
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 22px;
+}
+.header-content p{
+    color:rgb(75, 75, 75);
+    font-size: 22px;
+    padding-left: 22px;
+}
+
+.header-content p strong{
+    color:rgb(244, 70, 31);
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.header-content p span {
+    color:rgb(244, 70, 31);
+    float: left;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+  }
+  .header-content-below{
+    border: 4px solid;
+    border-color: rgb(213, 213, 213);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+
+.header-content-below h3{
+    color:rgb(75, 75, 75);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.header-content-below p{
+    color:rgb(8, 49, 76);
+    text-align: center;
+    font-size: 75px;
+    font-weight:bold;
+}
+.header-content-below h4{
+    color:rgb(8, 49, 76);
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: -10px;
+    text-align: center;
+}
+.header-content-below h4 span{
+    font-size: 18px;
+}
+
+
+/* accident happen area css*/
+.accident-happen{
+    background-color: rgb(8, 49, 76);
+}
+.accident-happen h1{
+    color: rgb(0 192 254);
+    font-weight: bold;
+    }
+.accident-happen-content h4{
+    color: white;
+
+}
+.accident-happen-content p{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+.accident-happen-content p strong{
+    color: rgb(0 192 254);
+    font-size: 22px; font-weight: bold;
+}
+.accident-happen-content p span {
+    color: rgb(0 192 254);
+    float: left;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+  }
+
+  .accident-happen-content-below h5{
+      color: white;
+      text-align:justify;
+      text-align-last: right;
+  }
+
+.accident-happen-content-below h5 strong{
+    color: rgb(0 192 254);
+}
+.accident-happen-content-below p{
+    color: white;
+    text-align:justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accident-happen-content-below p strong{
+  color: rgb(0 192 254);
+}
+
+/*common causes area*/
+
+.common-causes{
+    background-color: rgb(255, 255, 255);
+}
+.common-causes h1{
+    color: rgb(8, 49, 76);
+    font-weight: bold;
+}
+
+.figure{
+    display:inline-block;
+    padding-right: 20px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.figure .figure-caption{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    color: rgb(8, 49, 76);
+}
+
+.figure .figure-caption p{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 22px;
+    color: rgb(8, 49, 76);
+}
+.figure .figure-caption span{
+    color:rgb(255, 255, 255);
+}
+
+
+
+/*injuries causes area*/
+
+.injuries-causes{
+    background-color: rgb(244, 70, 31);
+    padding-bottom: 40px;
+}
+
+.injuries-causes h1{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.injuries-causes .figure{
+    display:inline-block;
+    padding-right: 20px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.injuries-causes .figure .figure-caption{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    color:rgb(255, 255, 255)
+}
+
+.injuries-causes .figure .figure-caption p{
+    font-size: 18.5px;
+    font-weight: bold;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+}
+.injuries-causes .figure .figure-caption span{
+    color:rgb(244, 70, 31)
+}
+
+
+
+
+/*fatalities causes area*/
+
+.fatalities-causes{
+    background-color:rgb(255, 255, 255)
+    ;
+}
+
+.fatalities-causes h1{
+    color:rgb(8, 49, 76);
+    font-weight: bold;
+}
+.fatalities-causes img{
+    float: left;
+    padding-right: 29px;
+}
+
+.fatalities-causes h2{
+    color:rgb(8, 49, 76);
+    font-weight: bold;
+    font-size: 29px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.fatalities-causes h2 span {
+    display:flex;
+    color: rgb(8, 49, 76);
+    float: left;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    padding-bottom: 0px;
+  }
+.fatalities-causes p{
+    color: rgb(66, 66, 66);
+    text-align: justify;
+    font-size: 21px;
+    clear: left;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.fatalities-causes p span{
+    color: rgb(66, 66, 66);
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+
+
+/* Mobile Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    
+    .header-content{
+        border: none;
+    }
+    .header-content-below p{
+        color:rgb(8, 49, 76);
+        text-align: center;
+        font-size: 29px;
+        font-weight:bold;
+    }
+    .header-content-below h4{
+        color:rgb(8, 49, 76);
+        font-weight: bold;
+        font-size: 14px;
+        padding-top: -10px;
+        text-align: center;
+    }
+    .header-content-below h4 span{
+        font-size: 12px;
+    }
+    .pos{
+        height: 120px;
+        width: 120px;
+    }
+    
+    .figure{
+        display:block;
+        text-align: center;
+     padding-top: 30px;
+    }
+    .injuries-causes .figure{
+        display:inline-block;
+        text-align: center;
+    }
+    
+}
+
+
+
+/* Mobile Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+    .header-content{
+        border: none;
+    }
+
+
+    .header-content-below{
+        border: 4px solid;
+        border-color: rgb(213, 213, 213);
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+    }
+    
+    .pos{
+        height: 120px;
+        width: 120px;
+    }
+    .figure{
+        display:block;
+        text-align: center;
+     padding-top: 30px;
+    }
+    .injuries-causes .figure{
+        display:block;
+        
+        text-align: center;
+    }
+    
+
+}
+
+
+
+/* ipad tablet :481px. */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .header-area img{
+        width: 225px;
+        height: 100px;
+    }
+       
+    .header-content-below p{
+        color:rgb(8, 49, 76);
+        text-align: center;
+        font-size: 29px;
+        font-weight:bold;
+    }
+    .header-content-below h4{
+        color:rgb(8, 49, 76);
+        font-weight: bold;
+        font-size: 14px;
+        padding-top: -10px;
+        text-align: center;
+    }
+    .header-content-below h4 span{
+        font-size: 12px;
+    }
+
+    .pos{
+        height: 120px;
+        width: 120px;
+    }
+
+    
+.figure{
+    display:inline-block;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+    
+.figure .figure-caption p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: rgb(8, 49, 76);
+}
+.injuries-causes .figure{
+    display:inline-block;
+    adding-right: 10px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+        
+    .header-content-below p{
+        color:rgb(8, 49, 76);
+        text-align: center;
+        font-size: 46px;
+        font-weight:bold;
+    }
+    .header-content-below h4{
+        color:rgb(8, 49, 76);
+        font-weight: bold;
+        font-size: 17px;
+        padding-top: -10px;
+        text-align: center;
+    }
+    .header-content-below h4 span{
+        font-size: 14px;
+    }
+    
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area h1{
+        font-size: 43px;
+        color: 003333;
+        color: rgb(8, 49, 76);
+        font-weight: 510;}
+
+        .header-area img{
+            width: 285px;
+            height: 141px;
+        }
+
+        .fatalities-causes h2 span {
+            display:flex;
+            color: rgb(8, 49, 76);
+            float: left;
+            font-size: 45px;
+            font-weight: bold;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 8px;
+            padding-left: 3px;
+            padding-bottom: 0px;
+          }
+        
+    }
+
+@media (min-width: 1450px) and (max-width: 1850px) {}
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px){}
+
+
+/* LG Device :1025px. */
+@media (min-width: 1025px) and (max-width: 1149px) {}
+
+
+
+ 
